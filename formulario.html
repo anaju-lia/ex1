@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 </head>
+    <style>
+body 
+{
+background-color: rgba(239, 218, 255, 0.974);
+}
+h2 
+{
+  background-color: rgb(180, 154, 205);
+}
+
+input[type=radio] {
+  accent-color: rgb(70, 0, 128);
+}
+</style>
 <body>
     <h2>Formulário</h2>
   <a  href="./tabela.html":> Tabela</a>
@@ -35,5 +49,19 @@
         <input type="checkbox" id="vehicle3" name="vehicle3" value="Correr">
         <label for="vehicle3"> Correr </label>
       </form>
+
+      <p>
+        Estado:
+        <select name="estado">
+          <option>São Paulo</option>
+          <option>Minas Gerais</option>
+          <option>Rio de Janeiro</option>
+          <option>Mato Grosso</option>
+          <option>Bahia</option>
+        </select>
+      </p>
+    </form>
+      <input type="submit"  value="Enviar">
+      <input type="reset" value="Limpar">
 </body>
 </html>
